@@ -1,7 +1,7 @@
 name: 'ERCore Theming'
 type: module
 description: 'Theme settings for ERCore Boot'
-core: 8.x
+#core: 8.x
 dependencies:
   - block
   - ercore_core
@@ -10,4 +10,4 @@ dependencies:
   - system
 version: 8.x-1.0
 package: ERCore
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^9 || ^10
