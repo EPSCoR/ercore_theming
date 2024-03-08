@@ -1,20 +1,11 @@
 favicon:
   mimetype: image/vnd.microsoft.icon
-  path: ''
-  url: 'http://ercore8.dd:8083/themes/custom/ercore_boot/favicon.ico'
-  use_default: true
+  path: 'public://favicon.ico'
+  url: 'https://smartgridreport.nmepscor.org/themes/contrib/ercore_boot/favicon.ico'
+  use_default: false
 schemas:
   bootstrap: 8000
   ercore_boot: 8000
-features:
-  comment_user_picture: true
-  comment_user_verification: true
-  favicon: true
-  node_user_picture: true
-logo:
-  path: ''
-  url: ''
-  use_default: true
 breadcrumb_home: 1
 region_wells:
   navigation: ''
@@ -25,7 +16,22 @@ region_wells:
   help: ''
   content: ''
   sidebar_first: ''
-  sidebar_second: well
+  sidebar_second: ''
   footer: ''
 table_responsive: '-1'
 table: ''
+logo:
+  path: 'public://nmepscor_logo_220_1.png'
+  url: ''
+  use_default: false
+cdn_theme: bootstrap
+cdn_cache_ttl_versions: '604800'
+cdn_cache_ttl_themes: '604800'
+cdn_cache_ttl_assets: '0'
+cdn_cache_ttl_library: '0'
+reset_http_request_cache: ''
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true

@@ -18,9 +18,11 @@ settings:
   label: 'ERCore Admin Menu'
   provider: menu_block
   label_display: '0'
+  follow: false
+  follow_parent: child
   level: 1
   depth: 1
-  expand: 0
+  expand: false
   parent: 'ercore-admin-menu:ercore_core.ercore_content'
   suggestion: ercore_admin_menu
 visibility: {  }

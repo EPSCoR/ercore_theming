@@ -10,7 +10,7 @@ dependencies:
 id: ercore_boot_ercoreadminmenu
 theme: ercore_boot
 region: ercore
-weight: -7
+weight: -8
 provider: null
 plugin: 'system_menu_block:ercore-admin-menu'
 settings:
@@ -20,4 +20,5 @@ settings:
   label_display: visible
   level: 1
   depth: 0
+  expand_all_items: false
 visibility: {  }

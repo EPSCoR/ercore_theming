@@ -8,7 +8,7 @@ dependencies:
 id: ercore_boot_ercoregrantblock
 theme: ercore_boot
 region: footer
-weight: -6
+weight: -8
 provider: null
 plugin: ercore_grant_block
 settings:
